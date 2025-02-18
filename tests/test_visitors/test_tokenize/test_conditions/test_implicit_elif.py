@@ -1,8 +1,6 @@
 import pytest
 
-from wemake_python_styleguide.violations.refactoring import (
-    ImplicitElifViolation,
-)
+from wemake_python_styleguide.violations.refactoring import ImplicitElifViolation
 from wemake_python_styleguide.visitors.tokenize.conditions import IfElseVisitor
 
 # Correct:

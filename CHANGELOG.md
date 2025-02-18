@@ -17,6 +17,12 @@ Semantic versioning in our case means:
   change the client facing API, change code conventions significantly, etc.
 
 
+##1.1.0
+### Concise code
+This version seeks to remove redundancy by removing extra lines for a code command and writing imports more succinctly
+- updated test_string_modifier.py
+- updated test_implicit_elif.py
+
 ## 1.1.0 WIP
 
 ### Command line utility

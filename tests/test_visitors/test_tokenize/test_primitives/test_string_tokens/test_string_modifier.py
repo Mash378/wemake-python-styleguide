@@ -44,10 +44,7 @@ def test_correct_prefix(
     visitor = WrongStringTokenVisitor(default_options, file_tokens=file_tokens)
     visitor.run()
 
-    assert_errors(
-        visitor,
-        [],
-    )
+    assert_errors(visitor,[],)
 
 
 @pytest.mark.parametrize(
